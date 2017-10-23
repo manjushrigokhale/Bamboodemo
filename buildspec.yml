@@ -1,0 +1,11 @@
+version: 0.1
+
+phases:
+  build:
+    commands:
+      - mvn clean package
+  
+artifacts:
+  files:
+    - target/EmployeeApplication.war
+  discard-paths: yes
