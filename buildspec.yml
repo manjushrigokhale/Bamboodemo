@@ -8,4 +8,5 @@ phases:
 artifacts:
   files:
     - target/EmployeeApplication.war
+    - target/site/index.html 
   discard-paths: yes
