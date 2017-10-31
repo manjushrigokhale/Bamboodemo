@@ -4,8 +4,6 @@ phases:
   build:
     commands:
       - mvn cobertura:cobertura package
-      - #!/bin/sh 
-      - exec java -jar ~/bin/slave.jar
   
 artifacts:
   files:
