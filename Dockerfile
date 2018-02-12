@@ -1,6 +1,7 @@
 #Base Image
 FROM ubuntu:14.04
 
+USER root
 #Adding discription to the images
 LABEL Description="This image is used for github->circleci->dockerhub->tutum->aws" Version="1.0"
 
