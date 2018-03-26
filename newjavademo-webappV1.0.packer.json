@@ -69,7 +69,7 @@
     {
       "type": "shell",
       "inline": [
-          "sudo mkdir -p /tmp/workspace/"
+          "mkdir -p /tmp/workspace/"
       ]
     },
     {
@@ -84,8 +84,8 @@
     {
       "type": "shell",
       "inline": [
-          "sudo mkdir -p /opt/newjavademo/",
-          "sudo cp -rf /tmp/workspace /opt/newjavademo/"
+          "mkdir -p /home/ubuntu/newjavademo/",
+          "sudo cp -rf /tmp/workspace /home/ubuntu/newjavademo/"
       ]
     },
         {
