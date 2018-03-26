@@ -81,6 +81,13 @@
       "source": "/var/lib/jenkins/workspace/packer-demo/target/",
       "destination": "/tmp/workspace/"
     },
+    {
+      "type": "shell",
+      "inline": [
+          "mkdir -p /opt/newjavademo/",
+          "sudo cp -rf /tmp/workspace /opt/newjavademo/"
+      ]
+    },
         {
       "type": "shell",
       "inline": [ "sleep 10" ]
